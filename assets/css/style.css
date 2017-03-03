@@ -1,0 +1,57 @@
+/* body background */
+
+body {
+    background: #eee;
+}
+
+.panel-body a {
+    word-break: break-all
+}
+
+/* hover effect */
+
+a:hover {
+    color: #000;
+    opacity: .5;
+}
+
+/* jumbo styling */
+
+#jumbo {
+    margin-top: 30px;
+    background: #2c3e50;
+    color: #ecf0f1;
+    border: 2px solid #2c3e50;
+    height: 200px;
+    text-shadow: 3px 3px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+    
+    -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Article Result Styling */
+
+.well {
+    background: #eee;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+}
+
+/* Article Headline Styling */
+
+.headline {
+    line-height: 35px;
+}
+
+/* label background */
+
+.label {
+    background: #000;
+}
+
+/* article link color */
+
+.linkData {
+    color: #000;
+}
